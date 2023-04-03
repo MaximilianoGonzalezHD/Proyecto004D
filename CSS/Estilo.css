@@ -24,7 +24,7 @@ span{
 }
 
 .colorP{
-    background-color:rgba(0, 0, 0, 0.445);
+    background-color:transparent;
     border: double rgba(183, 2, 255);
 }
 
