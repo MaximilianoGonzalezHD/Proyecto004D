@@ -24,7 +24,7 @@ span{
 }
 
 .colorP{
-    background-color:transparent;
+    background-color:rgba(0, 0, 0, 0.445);
     border: double rgba(183, 2, 255);
 }
 
@@ -32,7 +32,8 @@ span{
     color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
- 
+    margin-top: 10px;
+    margin-bottom: 10px;
 
     
 }
@@ -42,4 +43,10 @@ span{
 }
 .centrado{
     	text-align: center;
+        align-items: center;
+}
+
+label{
+    color: aliceblue;
+    margin-top: 25px;
 }
