@@ -86,7 +86,123 @@ label{
     
 }
 
-.tamanoF{
+/*Fondos*/
+.fondoCambiarC{
     background-size: 100% 100%;
-
+    background-image: url(/IMG/FondoOC.jpg);
 }
+@media only screen and (max-width: 1300px)  { 
+	.fondoCambiarC { 
+		background-image: url(/IMG/FondoCel.jpg); 
+	}   
+}
+
+.FondoCuenta{
+    background-size: 100% 100%;
+    background-image: url(/IMG/fondoct.png);
+}
+@media only screen and (max-width: 1300px)  { 
+	.FondoCuenta { 
+		background-image: url(/IMG/fondoct.jpg); 
+	}   
+}
+.fondoEditarP{
+    background-size: 100% 100%;
+    background-image: url(/IMG/fondoct.png);
+}
+@media only screen and (max-width: 1300px)  { 
+	.fondoEditarP { 
+		background-image: url(/IMG/fondoct.jpg); 
+	}   
+}
+.FondoINS{
+    background-size: 100%;
+    background-image: url(/IMG/fondoIS.jpg);
+}
+@media only screen and (max-width: 1300px)  { 
+	.FondoINS { 
+		background-image: url(/IMG/fondoIS.jpg); 
+	}   
+}
+.Fondonotros{
+    background-size: 100%;
+    background-image: url(/IMG/fondoNS.jpg);
+}
+@media only screen and (max-width: 1300px)  { 
+	.Fondonotros { 
+		background-image: url(/IMG/FondoCel.jpg); 
+	}   
+}
+.fondoregistro{
+    background-size:  100%;
+    background-image: url(/IMG/fondoIS.jpg);
+}
+@media only screen and (max-width: 1300px)  { 
+	.fondoregistro { 
+		background-image: url(/IMG/fondoIS.jpg); 
+	}   
+}
+.tiendaFondo{
+    background-size:  100%;
+    background-image: url(/IMG/FondoPrin.jpg);
+}
+@media only screen and (max-width: 1300px)  { 
+	.tiendaFondo { 
+		background-image: url(/IMG/FondoCel.jpg); 
+	}   
+}
+.tiendaFondo2{
+    background-size: 100%;
+    background-image: url(/IMG/FondoPrin.jpg);
+}
+@media only screen and (max-width: 1300px)  { 
+	.tiendaFondo2 { 
+		background-image: url(/IMG/FondoCel.jpg); 
+	}   
+}
+.FondoPlei{
+    background-size: 100%;
+    background-image: url(/IMG/fondoPlay.jpg);
+}
+@media only screen and (max-width: 1300px)  { 
+	.FondoPlei { 
+		background-image: url(/IMG/FondoCel.jpg); 
+	}   
+}
+.FondoXbos{
+    background-size:  100%;
+    background-image: url(/IMG/FondoXbox.jpg);
+}
+@media only screen and (max-width: 1300px)  { 
+	.FondoXbos { 
+		background-image: url(/IMG/FondoCel.jpg); 
+	}   
+}
+.FondoNin{
+    background-size:  100%;
+    background-image: url(/IMG/FondoNintendo.jpeg);
+}
+@media only screen and (max-width: 1300px)  { 
+	.FondoNin { 
+		background-image: url(/IMG/FondoCel.jpg); 
+	}   
+}
+.FondoPici{
+    background-size: 100%;
+    background-image: url(/IMG/fondoPC.jpg);
+}
+@media only screen and (max-width: 1300px)  { 
+	.FondoPici { 
+		background-image: url(/IMG/FondoCel.jpg); 
+	}   
+}
+.FondoCarrito{
+    background-size: 100% 100%;
+    background-image: url(/IMG/fondoCarrito.jpg);
+}
+@media only screen and (max-width: 1300px)  { 
+	.FondoCarrito { 
+		background-image: url(/IMG/FondoCel.jpg); 
+	}   
+}
+
