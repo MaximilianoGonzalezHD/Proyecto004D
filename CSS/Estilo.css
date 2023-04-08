@@ -1,6 +1,6 @@
 
 /*Pantalla Grande*/
-@media  (max-width: 3000px){
+@media  (max-width: 8000px){
 /*Titulos*/
 .Titulo{
     color: rgb(255, 255, 255);
@@ -379,7 +379,7 @@ label{
     }
     
     .colorPL{
-        background-color: rgba(0, 0, 0, 0.692);
+        background-color: rgba(0, 0, 0, 0.719);
         border: double rgb(0, 217, 255);
         color: rgb(255, 255, 255);
         font-family: Arial, Helvetica, sans-serif;
@@ -729,12 +729,13 @@ label{
 	}   
 }
 .FondoINS{
-    background-size: 100% 100%;
+    background-size: 100%;
     background-image: url(/IMG/fondoIS.jpg);
 }
 @media only screen and (max-width: 1300px)  { 
 	.FondoINS { 
-		background-image: url(/IMG/fondoIS.jpg); 
+		background-image: url(/IMG/FondoCel.jpg); 
+        background-size: 100%;
 	}   
 }
 .Fondonotros{
@@ -779,8 +780,8 @@ label{
 }
 @media only screen and (max-width: 1395px)  { 
 	.FondoPlei { 
-		background-image: url(/IMG/FondoCel.jpg);
-        background-size:  100%; 
+		background-image: url(/IMG/FondoPleiC.jpg);
+        background-size: 100% 100%; 
 	}   
 }
 .FondoXbos{
@@ -789,7 +790,7 @@ label{
 }
 @media only screen and (max-width: 1628px)  { 
 	.FondoXbos { 
-		background-image: url(/IMG/FondoCel.jpg); 
+		background-image: url(/IMG/FondoXboxC.jpg); 
         background-size: 100% 100%; 
 	}   
 }
@@ -797,9 +798,9 @@ label{
     background-size:   100%;
     background-image: url(/IMG/FondoNintendo.jpeg);
 }
-@media only screen and (max-width: 1620px)  { 
+@media only screen and (max-width: 1300px)  { 
 	.FondoNin { 
-		background-image: url(/IMG/FondoCel.jpg); 
+		background-image: url(/IMG/FondoNinC.jpg); 
         background-size: 100% 100%;
 	}   
 }
@@ -809,7 +810,7 @@ label{
 }
 @media only screen and (max-width: 1300px)  { 
 	.FondoPici { 
-		background-image: url(/IMG/FondoCel.jpg); 
+		background-image: url(/IMG/FondoPiciC.jpg); 
         background-size:100% 100%;
 	}   
 }
