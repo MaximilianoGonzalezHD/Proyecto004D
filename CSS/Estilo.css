@@ -71,6 +71,14 @@ label{
     max-height: 70px;
     
 }
+.imgiconav{
+    width: 100%;
+    max-width: 50px;
+    height: 100%;
+    max-height: 50px;
+    margin-left: 10px;
+    
+}
 
 .perfilb{
     border: solid violet;
