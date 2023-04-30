@@ -31,16 +31,15 @@
             <div class="col-md-12">
                 <h3 class="text-center" style="color: rgb(255, 255, 255);">Cambiar Contraseña</h3>
                 <div class="centrado ">
-                    <form action="">
+                    <form action="" id="formCC">
                         <label class="letra" for="ContrasenaA">Contraseña Actual:</label>
-                        <input type="text" id="ContrasenaA" name="ContrasenaA" title="ContrasenaA" />
+                        <input type="text" id="ContrasenaA" />
                         <br>
                         <label class="letra" for="NuevaContrasena">Nueva Contraseña:</label>
-                        <input type="password" id="NuevaContrasena" name="NuevaContrasena" title="Nueva Contraseña" />
+                        <input type="password" id="NuevaContrasena"/>
                         <br>
-                        <label class="letra" for="ConfirmarContrasena">Nueva Contraseña:</label>
-                        <input type="password" id="ConfirmarContrasena" name="ConfirmarContrasena"
-                            title="ConfirmacionC" />
+                        <label class="letra" for="ConfirmarContrasena">Confirmar Contraseña:</label>
+                        <input type="password" id="ConfirmarContrasena" />
 
                         <br>
                         <div class="row p-2">
@@ -53,10 +52,14 @@
                 </div>
             </div>
         </div>
+        <div class="row">
+            <div class="col-md-12 col-sm-12  mt-1">
+                <p class="STitulo p-3" id="warnings"></p>
+            </div>
+        </div>
     </div>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
+    <script src="/JS/Validacion_Contra.js"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
