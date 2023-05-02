@@ -691,7 +691,13 @@ label{
         
         }
 
-
+img{
+    width: 100%;
+    max-width: 140px;
+    height: 100%;
+    max-height: 500px;
+    
+}
 
 
 
@@ -778,7 +784,7 @@ label{
     background-size:  100%;
     background-image: url(/IMG/fondoPlay.jpg);
 }
-@media only screen and (max-width: 1395px)  { 
+@media only screen and (max-width: 1300px)  { 
 	.FondoPlei { 
 		background-image: url(/IMG/FondoPleiC.jpg);
         background-size: 100% 100%; 
@@ -818,7 +824,7 @@ label{
     background-size: 100% 100%;
     background-image: url(/IMG/fondoCarrito.jpg);
 }
-@media only screen and (max-width: 1497px)  { 
+@media only screen and (max-width: 1300px)  { 
 	.FondoCarrito { 
 		background-image: url(/IMG/FondoCel.jpg); 
 	}   

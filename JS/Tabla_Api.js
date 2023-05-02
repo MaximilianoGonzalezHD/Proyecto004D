@@ -8,9 +8,9 @@
             $.each(data.results,function(i,item){
                 //cada elemento del json lo muestro en la tabla
                 $("#tablaC").append(
-                    "<tr>"+
+                    "<tr id=resultado>"+
                     "<td>"+item.id+"</td>"+
-                    "<td><img src='"+item.image +"' alt='sin foto'></td>"+
+                    "<td><img  src='"+item.image +"' alt='sin foto'></td>"+
                     "<td>"+item.name+"</td>"+
                     "<td>"+item.status +"</td>"+
                     "<td>"+item.species+"</td>"+
@@ -20,4 +20,7 @@
             });
         })
     });
+$("#limpiar").click(function(){
+    $("#resultado").remove();
+})
 })
