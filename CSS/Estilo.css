@@ -830,3 +830,12 @@ img{
 	}   
 }
 
+.ram{
+    background-size: 100% 100%;
+    background-image: url(/IMG/Colab.jpg);
+}
+@media only screen and (max-width: 1300px)  { 
+	.FondoCarrito { 
+		background-image: url(/IMG/FondoCel.jpg); 
+	}   
+}
